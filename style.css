@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Montserrat:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Martel Sans', sans-serif;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(images/bg.jpg);
+    background-position: center center;
+    background-size: max(1200px,100vw);
+    background-repeat: no-repeat;
+    height: 70vh;
+    position: relative;
+}
+.main .box{
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+nav {
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+nav img{
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+nav .buttons {
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 62px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+span:first-child{
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+}
+span:nth-child(2) {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+}
+span:nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+.seperation {
+    height:7px;
+    background-color: rgb(32, 31, 31);
+}
+.buttons{
+    font-weight: bold;
+    padding: 3px 8px;
+    background-color: white;
+    border: 1px solid rgba(246,238,238,0.5);
+    border-radius: 4px;
+}
+.eng{
+    background-color: rgba(23,23,23,0.6);
+}
+.hbutt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.sign-button{
+background-color: red;
+color: white;
+}
+.start-button{
+background-color: red;
+color: white;
+padding:3px 24px ;
+font-size: 16px;
+}
+.main input{
+    background-color: rgba(23,23,23,0.6);
+    padding: 9px 35px;
+    font-size: 12px;
+}
+.first{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.TV{
+    position: relative;
+    top: 7px;
+}
+.TV img{
+    position: relative;
+    z-index: 10;
+}
+.TV video{
+    position: absolute;
+    top: 98px;
+    left: 78px;
+}
+.TVsec{
+    display: flex;
+    flex-direction: column;
+}
+.txt1{
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 34px ;
+}
+.txt2{
+    font-weight: 400;
+    font-size: 20px;
+}
+.faq{
+    padding: 34px;
+    background-color: black;
+}
+.faq h2{
+    text-align: center;
+    font-size: 40px;
+}
+.faqbox{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.faqbox span{
+    font-family: "Poppins", sans-serif;
+    width: 300px;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    background-color: rgb(31, 28, 28);
+    text-align: left;
+    padding-right: 700px;
+    padding-left: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.faqbox svg{
+    background-color:rgb(31, 28, 28);;
+    padding: 16px;
+}
+footer{
+    color: white;
+    margin: auto;
+    max-width: 60vw;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+footer .questions{
+    padding: 34px 0;
+}
+@media screen and (max-width:1300px){
+    .first{
+        flex-wrap: wrap;
+    }
+}
