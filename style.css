@@ -158,7 +158,7 @@ font-size: 16px;
     font-weight: 400;
     font-size: 20px;
     font-style: normal;
-    background-color: rgb(66, 65, 65);
+    background-color: rgb(44, 42, 42);
     text-align: left;
     padding-right: 700px;
     padding-left: 12px;
@@ -167,7 +167,7 @@ font-size: 16px;
 }
 
 .faqbox svg{
-    background-color:rgb(66, 65, 65);
+    background-color:rgb(44, 42, 42);
     padding: 16px;
 }
 footer{
